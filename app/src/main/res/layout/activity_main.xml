@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите виджет для обновления"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Список доступных виджетов -->
+    <ListView
+        android:id="@+id/widgetList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите напоминание" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Обновить напоминание"
+        android:layout_gravity="center" />
+</LinearLayout>
